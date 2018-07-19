@@ -81,6 +81,6 @@ if getNum(3) == 5:
     print(i)
 ~~~~
 
-# Exercise 4:
+## Exercise 4:
 - Create a function which takes a number as an argument and prints 'odd' if the number is odd and 'even if the number is even
 - Create a function which return True if the number is odd and False otherwise. Use this function in a for loop to print all odd numbers
