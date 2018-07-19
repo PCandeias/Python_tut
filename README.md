@@ -6,13 +6,15 @@ a=5
 print(a)
 # A variable can be modified, regardless of type
 a='str'
-# To create an array, you can do the following:
+# To create a list, you can do the following:
 tab=[1,2,3]
-# You can also create arrays of different types:
+# You can also create a list of different types:
 tab=[1,'mot',3]
-# You can access a specific element in the array by using [i]
+# You can access a specific element in the list by using [i]
 print(tab[0])
-# You can use a for loop to iterate through the arrays:
+# You can also modify it as follows:
+tab[2]=5
+# You can use a for loop to iterate through the list:
 for element in tab:
   print(element)
 # You can also use if-else blocks similar to other languages:
@@ -22,5 +24,22 @@ if tab[0] == 1:
 for element in tab:
   if element == 1:
     print(element)
-# Test
+~~~~
+
+## Exercise 1
+- Create an array containing 3 times the value 0. Print all the different values.
+- Replace the first 0 with a 5. Print all the different values.
+
+
+~~~~python
+# You can create an iterable object containing numbers from 0 to 10, not including 10, as such:
+obj=range(10)
+# You can use that in a for loop to print all numbers from 0 to 10
+for i in range(10):
+  print(i)
+# You can also create an iterable object from 5 to 10, not including 10, as such:
+obj=range(5,10)
+# In Python3, you can iterate through this object, but it's not a list. To create a real list, you can do:
+array=list(range(10))
+print(array)
 ~~~~
