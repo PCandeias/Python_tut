@@ -39,7 +39,7 @@ for i in range(10):
   print(i)
 # You can also create an iterable object from 5 to 10, not including 10, as such:
 obj=range(5,10)
-# In Python3, you can iterate through this object, but it's not a list. To create a real list, you can do:
+# In Python3, you can iterate through this object, but it's not a list. To create a real list containing elements from 0 to 10, you can do:
 array=list(range(10))
 print(array)
 ~~~~
