@@ -56,3 +56,18 @@ if i == 6 and i%2 == 0:
 ## Exercise 3
 - Create an array of size 10 containing only 5's
 ###### Hint: use array[i] = 5 to modify value at index i
+
+
+~~~~python
+# A function can be defined in python as such:
+def printHello():
+  print('Hello')
+# It can then be called using the following syntax:
+printHello()
+# Functions may contain arguments used to create different behaviours
+def printHelloRepeat(num):
+  for i in range(num):
+    printHello()
+# This would then be called as follows to print 'Hello' 5 times:
+printHelloRepeat(5)
+~~~~
