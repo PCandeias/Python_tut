@@ -43,4 +43,16 @@ obj=range(5,10)
 # To create a real list containing elements from 0 to 10, you can do:
 array=list(range(10))
 print(array)
+# The same operators as in c++ are still valid in python, +,-,*,/,%, etc
+# Instead of the typical '||' and '&&' operators, python uses 'and' and 'or'
+# Example:
+if i == 6 and i%2 == 0:
+  print(i)
 ~~~~
+
+## Exercise 2
+- Print all even numbers between 0 and 10
+
+## Exercise 3
+- Create an array of size 10 containing only 5's
+#### Hint: use array[i] = 5 to modify value at index i
