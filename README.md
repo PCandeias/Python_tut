@@ -55,4 +55,4 @@ if i == 6 and i%2 == 0:
 
 ## Exercise 3
 - Create an array of size 10 containing only 5's
-#### Hint: use array[i] = 5 to modify value at index i
+###### Hint: use array[i] = 5 to modify value at index i
