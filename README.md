@@ -70,4 +70,8 @@ def printHelloRepeat(num):
     printHello()
 # This would then be called as follows to print 'Hello' 5 times:
 printHelloRepeat(5)
+# Functions may also return values which can then be used in the rest of the program
+def getNum(num):
+  return num
+a = getNum(5) # Has value 5
 ~~~~
