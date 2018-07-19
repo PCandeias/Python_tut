@@ -48,6 +48,7 @@ print(array)
 # Example:
 if i == 6 and i%2 == 0:
   print(i)
+# Boolean values in python are 'True' and 'False'
 ~~~~
 
 ## Exercise 2
@@ -74,4 +75,12 @@ printHelloRepeat(5)
 def getNum(num):
   return num
 a = getNum(5) # Has value 5
+# Functions that return objects of a certain type can be used in any place where that type would make sense
+if getNum(3) == 5:
+  for i in range(getNum(4)):
+    print(i)
 ~~~~
+
+# Exercise 4:
+- Create a function which takes a number as an argument and prints 'odd' if the number is odd and 'even if the number is even
+- Create a function which return True if the number is odd and False otherwise. Use this function in a for loop to print all odd numbers
