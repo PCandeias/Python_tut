@@ -15,7 +15,12 @@ print(tab[0])
 # You can use a for loop to iterate through the arrays:
 for element in tab:
   print(element)
+# You can also use if-else blocks similar to other languages:
+if tab[0] == 1:
+  print('Hello world')
 # Indentation is used in python to create separate blocks, instead of the typical {}
 for element in tab:
-  print(element)
+  if element == 1:
+    print(element)
+# Test
 ~~~~
