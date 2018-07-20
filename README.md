@@ -106,4 +106,15 @@ array = [i for i in range(10)] # Numbers from 0 to 10 (10 not included)
 array = [i*3 for i in range(10)] # Contains 10 first multiples of 3
 # You can also filter some of the values by using ifs
 array = [i for i in range(10) if i%2==0] # contains [0,2,4,6,8]
+# You can access more then one element in an array by using the following syntax
+array[1:3]
+# You can also leave fields unspecified, and the interpreter will figure it out
+array[:3] # Same as array[0:3]
+array[0:] # same as array[0:5] for array of size 5
+# You can learn the size of an array by using the len() function
+size = len(array)
+# You can also convert a int to a string using the str() function
+a = 'str' + str(3)
+# You can also convert a VALID string into a int using the int() function (it needs to actually only contain number caracters)
+num = int('5434')
 ~~~~
