@@ -6,6 +6,10 @@ a=5
 print(a)
 # A variable can be modified, regardless of type
 a='str'
+# You can also convert a int to a string using the str() function
+a = str(3)
+# You can also convert a VALID string into a int using the int() function (it needs to actually only contain number caracters)
+num = int('5434')
 # To create a list, you can do the following:
 tab=[1,2,3]
 # You can also create a list of different types:
@@ -113,8 +117,4 @@ array[:3] # Same as array[0:3]
 array[0:] # same as array[0:5] for array of size 5
 # You can learn the size of an array by using the len() function
 size = len(array)
-# You can also convert a int to a string using the str() function
-a = 'str' + str(3)
-# You can also convert a VALID string into a int using the int() function (it needs to actually only contain number caracters)
-num = int('5434')
 ~~~~
