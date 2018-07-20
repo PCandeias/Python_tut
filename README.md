@@ -83,4 +83,12 @@ if getNum(3) == 5:
 
 ## Exercise 4:
 - Create a function which takes a number as an argument and prints 'odd' if the number is odd and 'even if the number is even
-- Create a function which return True if the number is odd and False otherwise. Use this function in a for loop to print all odd numbers
+- Create a function which return True if the number is odd and False otherwise. Use this function in a for loop to print all odd numbers between 0 and 10
+
+~~~~python
+# Similar to other programming languages, python can use while loops:
+count = 0
+while count <= 10:
+  count += 1
+  print('hello')
+~~~~
