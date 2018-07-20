@@ -99,3 +99,11 @@ while count <= 10:
 ## Exercise 6(Harder):
 - Create a function that tells you if a number is prime or not
 - Print the first 20 prime numbers
+~~~~python
+# A different syntax for creating arrays in python which is very useful is:
+array = [i for i in range(10)] # Numbers from 0 to 10 (10 not included)
+# This can be useful when you don't just use i:
+array = [i*3 for i in range(10)] # Contains 10 first multiples of 3
+# You can also filter some of the values by using ifs
+array = [i for i in range(10) if i%2==0] # contains [0,2,4,6,8]
+~~~~
