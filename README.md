@@ -92,3 +92,10 @@ while count <= 10:
   count += 1
   print('hello')
 ~~~~
+
+## Exercise 5:
+- Print the first 10 odd numbers that are a multiple of 5 and 3
+
+## Exercise 6(Harder):
+- Create a function that tells you if a number is prime or not
+- Print the first 20 prime numbers
