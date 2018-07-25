@@ -133,4 +133,6 @@ for a, b, c in seq:
 # Since python3, you can also only assign some of the variables using *, as such:
 vals = [0,1,2,3]
 a, b, *c = vals # a = 0, b = 1, c = [2,3]
+# If you wish to ignore some of the values, it is common to use the variable _, as such
+a, b, *_ = vals # this indicates you only care about the first 2 values, the rest is "ignored"
 ~~~~
