@@ -118,3 +118,19 @@ array[0:] # same as array[0:5] for array of size 5
 # You can learn the size of an array by using the len() function
 size = len(array)
 ~~~~
+
+~~~~python
+# A useful thing in python is what is called unpacking. It allows to easily assign a list of values to several variables simultaneously
+vals = [0,1,2]
+a,b,c = vals # a=0, b=1, c=2
+# This is particularly useful when iterating through a list of lists
+seq = [[1,2,3],[4,5,6],[7,8,9]]
+for a, b, c in seq:
+  print('values')
+  print(a)
+  print(b)
+  print(c)
+# Since python3, you can also only assign some of the variables using *, as such:
+vals = [0,1,2,3]
+a, b, *c = vals # a = 0, b = 1, c = [2,3]
+~~~~
